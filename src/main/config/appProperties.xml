@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<appProperties-definition>
+    <!--
+    tag "defaultConnection is "deprecated"
+    -->
+    <defaultConnection>9</defaultConnection>
+    <activeConnections>22</activeConnections>
+    <connections>
+        <connection>
+            <dbProvider>hsqldb</dbProvider>
+            <dbServerName>/home/francisco/hsqlDBs/dbJgenII2</dbServerName>
+            <dbName>templates2</dbName>
+            <dbUser>SA</dbUser>
+            <dbPassword></dbPassword>
+            <dbIndexCon>0</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>hsqldbserver</dbProvider>
+            <dbServerName>localhost</dbServerName>
+            <dbName>accesosDB</dbName>
+            <dbUser>SA</dbUser>
+            <dbPassword></dbPassword>
+            <dbIndexCon>1</dbIndexCon>
+        </connection>        
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>localhost</dbServerName>
+            <dbName>auditDb</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>2</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.44</dbServerName>
+            <dbName>auditDb</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>3</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>oracle</dbProvider>
+            <dbServerName>10.25.1.48</dbServerName>
+            <dbName>midbmodel</dbName> <!-- Service name -->
+            <dbUser>pruebas</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>4</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName></dbServerName>
+            <dbName>northwind</dbName>
+            <dbUser>sup</dbUser>
+            <dbPassword>tiger</dbPassword>
+            <dbIndexCon>5</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.54</dbServerName>
+            <dbName>masterDetailSample</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>6</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.54</dbServerName>
+            <dbName>auditDb</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>7</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.60</dbServerName>
+            <dbName>miDbModel</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>8</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.56</dbServerName>
+            <dbName>miDbModel</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>9</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.56</dbServerName>
+            <dbName>regGastos</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>10</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.44</dbServerName>
+            <dbName>movistar_gua</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>11</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>hsqldbserver</dbProvider>
+            <dbServerName>localhost</dbServerName>
+            <dbName>regGastos</dbName>
+            <dbUser>SA</dbUser>
+            <dbPassword></dbPassword>
+            <dbIndexCon>12</dbIndexCon>
+        </connection>        
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.60</dbServerName>
+            <dbName>genPlantillas</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>13</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mysql</dbProvider>
+            <dbServerName>10.25.1.56</dbServerName>
+            <dbName>genPlantillas</dbName>
+            <dbUser>root</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>14</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>oracle</dbProvider>
+            <dbServerName>10.25.1.45</dbServerName>
+            <dbName>orcl</dbName> <!-- Service name -->
+            <dbUser>mytest</dbUser>
+            <dbPassword>mytest</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>15</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>oracleTns</dbProvider>
+            <dbServerName> (DESCRIPTION =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = pbbncr03252.pbbn.int.com)(PORT = 1521))
+                (CONNECT_DATA =
+                (SERVER = DEDICATED)
+                (SERVICE_NAME = ORCL.pbbn.int.com)
+                )
+                )</dbServerName>
+            <dbName>orcl</dbName> <!-- Service name -->
+            <dbUser>sab</dbUser>
+            <dbPassword>O3E1S4F9</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>16</dbIndexCon>
+        </connection>                
+        <connection>
+            <dbProvider>oracleTns</dbProvider>
+            <dbServerName> (DESCRIPTION =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = pbbncr03252.pbbn.int.com)(PORT = 1521))
+                (CONNECT_DATA =
+                (SERVER = DEDICATED)
+                (SERVICE_NAME = ORCL.pbbn.int.com)
+                )
+                )</dbServerName>
+            <dbName>orcl</dbName> <!-- Service name -->
+            <dbUser>SAB_NET</dbUser>
+            <dbPassword>ZXCV1234$</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>17</dbIndexCon>
+        </connection>                        
+        <connection>
+            <dbProvider>oracleTns</dbProvider>
+            <dbServerName> (DESCRIPTION =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = pbbncr03252.pbbn.int.com)(PORT = 1521))
+                (CONNECT_DATA =
+                (SERVER = DEDICATED)
+                (SERVICE_NAME = ORCL.pbbn.int.com)
+                )
+                )</dbServerName>
+            <dbName>orcl</dbName> <!-- Service name -->
+            <dbUser>sab_cus</dbUser>
+            <dbPassword>gVsMJ6w7ohGO</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>18</dbIndexCon>
+        </connection>                
+        <connection>
+            <dbProvider>oracleTns</dbProvider>
+            <dbServerName> 
+                (DESCRIPTION =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = scandes-pbbn)(PORT = 1521))
+                (CONNECT_DATA =
+                (SERVER = DEDICATED)
+                (SERVICE_NAME = DESPBBN04.pbbn.int.com)
+                )
+                )</dbServerName>
+            <dbName>PDBPBBN04.pbbn.int.com</dbName> <!-- Service name -->
+            <dbUser>sab_net</dbUser>
+            <dbPassword>ZXCV1234$</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>19</dbIndexCon>
+        </connection>                
+        <connection>
+            <dbProvider>oracleTns</dbProvider>
+            <dbServerName> 
+                (DESCRIPTION =
+                (ADDRESS = (PROTOCOL = TCP)(HOST = 10.10.1.85)(PORT = 1521))
+                (CONNECT_DATA =
+                (SERVER = DEDICATED)
+                (SERVICE_NAME = BNVDES.pbbn.int.com)
+                )
+                )</dbServerName>
+            <dbName>BNVDES.pbbn.int.com</dbName> <!-- Service name -->
+            <dbUser>PSI</dbUser>
+            <dbPassword>H6H2V3T7</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>20</dbIndexCon>
+        </connection> 
+        <connection>
+            <dbProvider>oracle</dbProvider>
+            <dbServerName>10.25.1.56</dbServerName>
+            <dbName>xe</dbName> <!-- Service name -->
+            <dbUser>mytest</dbUser>
+            <dbPassword>oracle123</dbPassword>
+            <dbConnStr></dbConnStr>
+            <dbIndexCon>21</dbIndexCon>
+        </connection>
+        <connection>
+            <dbProvider>mariadb</dbProvider>
+            <dbServerName>10.25.1.80</dbServerName>
+            <dbName>dbTest1</dbName>
+            <dbUser>fvargas</dbUser>
+            <dbPassword>valerie5250</dbPassword>
+            <dbIndexCon>22</dbIndexCon>
+        </connection>
+    </connections>
+    <numRegsLRUtoShow>10</numRegsLRUtoShow>
+    <directoyData>C:\Users\fvargas\Documents\trash\data</directoyData>
+    <!-- Emulacion de parametros -->
+    <!-- Con estos parametros se va a cargar el map para las rutas donde se cargan los archivos -->
+    <params> 
+        <param id= "nameArchPadron" value ="PADRON_EXTERNO_MARZO 2018.txt" />
+        <param id="nameArchDefunc" value="MAESTRO_DEFUNCIONES_MARZO 2017.txt"/>
+        <param id="nameArchNacim" value="MAESTRO_NACIMIENTOS_MARZO 2017.txt"/>
+        <param id="pathDefaultArchivos" value="C:\Users\garfi\Downloads\padron_completo"/>
+    </params>
+</appProperties-definition>
