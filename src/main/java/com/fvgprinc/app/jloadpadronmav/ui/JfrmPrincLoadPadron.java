@@ -15,6 +15,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.URL;
 import java.sql.SQLException;
 
 
@@ -34,19 +35,23 @@ public class JfrmPrincLoadPadron extends javax.swing.JFrame {
         initMyComponents();
     }
 
-    private static void initGlobalSettings() {
+    private void initGlobalSettings() {
         // leer configuracion
         // Force Init Global Settings
         // Global Settings is a Singleton class to get global 
         // variables (hard coded).
         AppGlobalParamConfigFile.getInstance().setDefTypeConfFile(AppGlobalParamConfigFile.getInstance().getDefTypeConfFile());
-        AppGlobalParamConfigFile.getInstance().setCfpath(AppConstants.APPPATHRESOURCES + "appProperties.xml");
+        AppGlobalParamConfigFile.getInstance().setCfpath("appProperties.xml");
 
         // ConfigFileFactory is a singleton class to manipulate globla 
         // data from ConfigFile.
         // The ConfigFile is the gateway to Params objetct and Connection objetc
         ConfigFile xmlCf;
         xmlCf = ConfigFileFactory.getInstance().getConfigFileManager().getConfigurationFile();
+        
+        String locFileStr = "appProperties.xml";
+        URL configURL = this.getClass().getClassLoader().getResource(locFileStr);
+        xmlCf.setConfigURL(configURL);
         //System.out.println(xmlCf.getLocationFile());
         xmlCf.setLocation(AppGlobalParamConfigFile.getInstance().getCfpath());
 
